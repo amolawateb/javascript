@@ -67,12 +67,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Closure.aspx" />
+    <Content Include="ConvertStrings.aspx" />
     <Content Include="ExternalJavaScript.js" />
+    <Content Include="Functions.aspx" />
+    <Content Include="LocalandGlobalVariables.aspx" />
     <Content Include="Web.config" />
     <Content Include="InlineJS.aspx" />
     <Content Include="ExternalJS.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Closure.aspx.cs">
+      <DependentUpon>Closure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Closure.aspx.designer.cs">
+      <DependentUpon>Closure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConvertStrings.aspx.cs">
+      <DependentUpon>ConvertStrings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConvertStrings.aspx.designer.cs">
+      <DependentUpon>ConvertStrings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.aspx.cs">
+      <DependentUpon>Functions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Functions.aspx.designer.cs">
+      <DependentUpon>Functions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalandGlobalVariables.aspx.cs">
+      <DependentUpon>LocalandGlobalVariables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LocalandGlobalVariables.aspx.designer.cs">
+      <DependentUpon>LocalandGlobalVariables.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InlineJS.aspx.cs">
       <DependentUpon>InlineJS.aspx</DependentUpon>
